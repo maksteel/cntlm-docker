@@ -21,4 +21,4 @@ RUN chmod u+x configure && \
     make &&\
     make install
 EXPOSE 3128
-ENTRYPOINT [ "cntlm", "-a ntlmv2", "-f" ]
+ENTRYPOINT [ "cntlm", "-a", "ntlmv2", "-f" ]
